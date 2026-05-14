@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overview - Main Website</title>
+  <!-- Include Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Optional: Customize Tailwind theme -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#d31b23', // Red accent for consistency
+            secondary: '#fafafa', // Light gray background
+          },
+          animation: {
+            fadeIn: 'fadeIn 1s ease-in-out',
+          },
+          keyframes: {
+            fadeIn: {
+              '0%': { opacity: '0' },
+              '100%': { opacity: '1' },
+            },
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-secondary text-gray-800 font-sans">
+
+  <!-- Header Section -->
+  <header class="text-center p-8 md:p-12 bg-white shadow-md animate-fadeIn">
+    <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Distributor Overview</h1>
+    <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+      Explore our main services and subpages designed to enhance your promotional business. Each section offers tailored solutions for distributors and suppliers.
+    </p>
+  </header>
+
+  <!-- Main Content Section -->
+  <section class="p-6 md:p-12 animate-fadeIn">
+    <h2 class="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-8">Our Key Subpages</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      
+      <!-- Card 1: Catalog Services -->
+      <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 hover:scale-105 border border-gray-200">
+        <img src="https://picsum.photos/400/200?random=1" alt="Catalog Services Overview" class="w-full h-48 object-cover rounded-t-lg mb-4 border-b-4 border-primary">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">Catalog Services</h3>
+        <p class="text-gray-600 mb-4">Discover our top catalogs like Spectrum, Idea Showcase, and Gift Book, designed for easy product reference and marketing.</p>
+        <a href="catalog_services.html" class="inline-flex items-center px-4 py-2 bg-primary text-white rounded hover:bg-red-700 transition duration-300">
+          Learn More
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Card 2: ASI Solutions -->
+      <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 hover:scale-105 border border-gray-200">
+        <img src="https://picsum.photos/400/200?random=2" alt="ASI Solutions Overview" class="w-full h-48 object-cover rounded-t-lg mb-4 border-b-4 border-primary">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">TriMart Solutions</h3>
+        <p class="text-gray-600 mb-4">Explore comprehensive solutions including Product Marketplace, Website Solutions, and Company Stores for the promotional industry.</p>
+        <a href="asi_solutions.html" class="inline-flex items-center px-4 py-2 bg-primary text-white rounded hover:bg-red-700 transition duration-300">
+          Learn More
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Card 3: Company Stores -->
+      <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 hover:scale-105 border border-gray-200">
+        <img src="https://picsum.photos/400/200?random=3" alt="Company Stores Overview" class="w-full h-48 object-cover rounded-t-lg mb-4 border-b-4 border-primary">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">Company Stores</h3>
+        <p class="text-gray-600 mb-4">Create flexible, branded storefronts with ESP+ Stores for employee recognition, team gear, and more.</p>
+        <a href="company_stores.html" class="inline-flex items-center px-4 py-2 bg-primary text-white rounded hover:bg-red-700 transition duration-300">
+          Learn More
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Card 4: Promo Business -->
+      <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 hover:scale-105 border border-gray-200">
+        <img src="https://picsum.photos/400/200?random=4" alt="Promo Business Overview" class="w-full h-48 object-cover rounded-t-lg mb-4 border-b-4 border-primary">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">Promo Business</h3>
+        <p class="text-gray-600 mb-4">One platform to source, sell, and promote your business with 1.2M+ products and trusted suppliers in a $26.6B industry.</p>
+        <a href="Promo_business.html" class="inline-flex items-center px-4 py-2 bg-primary text-white rounded hover:bg-red-700 transition duration-300">
+          Learn More
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Card 5: Marketing & Creative Services -->
+      <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-transform duration-300 hover:scale-105 border border-gray-200">
+        <img src="https://picsum.photos/400/200?random=5" alt="Marketing & Creative Services Overview" class="w-full h-48 object-cover rounded-t-lg mb-4 border-b-4 border-primary">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">Marketing & Creative Services</h3>
+        <p class="text-gray-600 mb-4">Leverage email marketing, local listings, and creative tools to elevate your brand and drive results.</p>
+        <a href="marketing-creative-services.html" class="inline-flex items-center px-4 py-2 bg-primary text-white rounded hover:bg-red-700 transition duration-300">
+          Learn More
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white text-center p-4 mt-12">
+    <p>&copy; 2025 TriMart Marketplace. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

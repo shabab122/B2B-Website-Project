@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courier Services - DHL, FedEx & Sundarban Courier</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .company-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .company-card:hover {
+            transform: translateY(-5px);
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background-color: #3b82f6;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header Section -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <i class="fas fa-shipping-fast text-3xl text-blue-600 mr-3"></i>
+                    <h1 class="text-2xl md:text-3xl font-bold text-blue-800">Global & Domestic Courier Services</h1>
+                </div>
+                <nav class="flex space-x-6">
+                    <a href="#sundarban" class="nav-link text-gray-700 font-medium">Sundarban</a>
+                    <a href="#fedex" class="nav-link text-gray-700 font-medium">FedEx</a>
+                    <a href="#dhl" class="nav-link text-gray-700 font-medium">DHL</a>
+                    <a href="#comparison" class="nav-link text-gray-700 font-medium">Compare</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Reliable Courier Services for All Your Shipping Needs</h2>
+            <p class="text-xl max-w-3xl mx-auto mb-8">Connect with trusted domestic and international courier partners for fast, secure, and affordable delivery solutions.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#sundarban" class="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold py-3 px-6 rounded-full transition duration-300">
+                    Domestic Shipping
+                </a>
+                <a href="#fedex" class="bg-white hover:bg-gray-200 text-purple-800 font-bold py-3 px-6 rounded-full transition duration-300">
+                    International Express
+                </a>
+                <a href="#contact" class="bg-transparent border-2 border-white hover:bg-white hover:text-purple-800 font-bold py-3 px-6 rounded-full transition duration-300">
+                    Get Quote
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <!-- Sundarban Courier Service Section -->
+        <section id="sundarban" class="mb-20">
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden company-card">
+                <div class="md:flex">
+                    <div class="md:w-2/5 bg-yellow-500 p-8 flex flex-col items-center justify-center">
+                        <div class="w-full h-48 bg-white rounded-lg flex items-center justify-center mb-6 p-4">
+                            <div class="text-center">
+                                <h2 class="text-3xl font-bold text-gray-800">SUNDARBAN</h2>
+                                <h3 class="text-xl font-semibold text-gray-800">Courier Service</h3>
+                                <p class="text-gray-600 mt-2 italic">"The First Fastest Courier of the Country"</p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-xl font-bold text-white mb-2">Domestic Specialist</h3>
+                            <div class="flex justify-center space-x-4 mt-4">
+                                <div class="bg-yellow-600 rounded-full p-3">
+                                    <i class="fas fa-truck text-white text-xl"></i>
+                                </div>
+                                <div class="bg-yellow-600 rounded-full p-3">
+                                    <i class="fas fa-map-marker-alt text-white text-xl"></i>
+                                </div>
+                                <div class="bg-yellow-600 rounded-full p-3">
+                                    <i class="fas fa-box text-white text-xl"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-3/5 p-8">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Sundarban Courier Service</h2>
+                        <p class="text-gray-600 mb-6">Sundarban Courier Service is Bangladesh's premier domestic courier and parcel delivery service, renowned for its extensive network, reliability, and affordable pricing. Established with a vision to connect the entire nation, Sundarban has become the trusted choice for individuals and businesses alike.</p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Service Highlights</h3>
+                                <ul class="space-y-2">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Nationwide coverage with 500+ service points</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Fast delivery (1-3 business days)</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Real-time package tracking</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Cash on delivery option</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Document and parcel services</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Specialized Services</h3>
+                                <ul class="space-y-2">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-gift text-yellow-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">E-commerce delivery solutions</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-file-invoice-dollar text-yellow-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Bill collection services</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-mobile-alt text-yellow-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">SMS notification for delivery status</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-shield-alt text-yellow-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Secure handling of valuable items</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Why Choose Sundarban?</h3>
+                            <p class="text-gray-600">With over two decades of experience, Sundarban Courier Service has built an unparalleled reputation for reliability in domestic shipping. Their extensive network reaches even remote areas of the country, ensuring your packages arrive safely and on time. Competitive pricing and excellent customer service make them the preferred choice for domestic logistics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FedEx Section -->
+        <section id="fedex" class="mb-20">
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden company-card">
+                <div class="md:flex flex-row-reverse">
+                    <div class="md:w-2/5 bg-purple-800 p-8 flex flex-col items-center justify-center">
+                        <div class="w-full h-48 bg-white rounded-lg flex items-center justify-center mb-6 p-4">
+                            <div class="text-center">
+                                <h2 class="text-3xl font-bold text-gray-800">FedEx</h2>
+                                <h3 class="text-xl font-semibold text-gray-800">Express</h3>
+                                <p class="text-gray-600 mt-2">The World On Time</p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-xl font-bold text-white mb-2">Global Express</h3>
+                            <div class="flex justify-center space-x-4 mt-4">
+                                <div class="bg-purple-700 rounded-full p-3">
+                                    <i class="fas fa-plane text-white text-xl"></i>
+                                </div>
+                                <div class="bg-purple-700 rounded-full p-3">
+                                    <i class="fas fa-globe-americas text-white text-xl"></i>
+                                </div>
+                                <div class="bg-purple-700 rounded-full p-3">
+                                    <i class="fas fa-clock text-white text-xl"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-3/5 p-8">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">FedEx Express</h2>
+                        <p class="text-gray-600 mb-6">FedEx Corporation is a global leader in logistics, e-commerce, and business services. With one of the world's largest cargo air fleets, FedEx provides time-definite transportation services to businesses and individuals in more than 220 countries and territories.</p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Global Services</h3>
+                                <ul class="space-y-2">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-rocket text-purple-600 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">International Priority (1-3 business days)</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-shipping-fast text-purple-600 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">International Economy (4-5 business days)</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-boxes text-purple-600 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Freight services for heavy shipments</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-passport text-purple-600 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Customs brokerage with experts</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-tools text-purple-600 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Supply chain solutions</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Business Solutions</h3>
+                                <ul class="space-y-2">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-laptop-house text-purple-600 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">E-commerce integration</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-warehouse text-purple-600 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Warehousing and fulfillment</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-file-invoice text-purple-600 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Trade facilitation services</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chart-line text-purple-600 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Advanced analytics and reporting</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">FedEx Advantage</h3>
+                            <p class="text-gray-600">FedEx revolutionized the logistics industry with its hub-and-spoke model, enabling reliable overnight delivery. Their advanced tracking technology provides real-time visibility of shipments, while their global network ensures your packages reach virtually any destination worldwide. With dedicated industry specialists, FedEx offers tailored solutions for healthcare, retail, automotive, and technology sectors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DHL Section -->
+        <section id="dhl" class="mb-20">
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden company-card">
+                <div class="md:flex">
+                    <div class="md:w-2/5 bg-yellow-400 p-8 flex flex-col items-center justify-center">
+                        <div class="w-full h-48 bg-white rounded-lg flex items-center justify-center mb-6 p-4">
+                            <div class="text-center">
+                                <h2 class="text-3xl font-bold text-red-600">DHL</h2>
+                                <h3 class="text-xl font-semibold text-red-600">Express</h3>
+                                <p class="text-red-600 mt-2">Excellence. Simply Delivered.</p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-xl font-bold text-red-600 mb-2">Logistics Leader</h3>
+                            <div class="flex justify-center space-x-4 mt-4">
+                                <div class="bg-yellow-500 rounded-full p-3">
+                                    <i class="fas fa-ship text-white text-xl"></i>
+                                </div>
+                                <div class="bg-yellow-500 rounded-full p-3">
+                                    <i class="fas fa-parachute-box text-white text-xl"></i>
+                                </div>
+                                <div class="bg-yellow-500 rounded-full p-3">
+                                    <i class="fas fa-hands-helping text-white text-xl"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-3/5 p-8">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">DHL Express</h2>
+                        <p class="text-gray-600 mb-6">DHL is the global market leader in the logistics industry, specializing in international shipping, courier services, and transportation. As a division of Deutsche Post, DHL offers comprehensive logistics solutions from document delivery to supply chain management across 220+ countries.</p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Express Services</h3>
+                                <ul class="space-y-2">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-bolt text-red-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Express Worldwide (1-3 days)</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-flag-checkered text-red-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Time Definite Delivery options</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-temperature-low text-red-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Temperature-controlled logistics</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-dolly text-red-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Heavyweight shipment services</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-money-bill-wave text-red-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Duties and taxes payment options</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Industry Specialization</h3>
+                                <ul class="space-y-2">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-heartbeat text-red-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Healthcare and life sciences</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-laptop-medical text-red-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Technology sector solutions</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-tshirt text-red-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Fashion and retail logistics</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-car text-red-500 mt-1 mr-2"></i>
+                                        <span class="text-gray-700">Automotive industry support</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">DHL Excellence</h3>
+                            <p class="text-gray-600">DHL's strength lies in its industry-specific expertise and global network. With dedicated teams for different sectors, they provide customized logistics solutions that address unique challenges. Their commitment to innovation is evident in their green logistics initiatives, including their GoGreen climate protection program. DHL's extensive air, ocean, and ground network ensures reliable delivery even to the most challenging destinations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparison Table -->
+        <section id="comparison" class="mb-16">
+            <div class="bg-white rounded-2xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-2">Service Comparison</h2>
+                <p class="text-gray-600 text-center mb-8 max-w-3xl mx-auto">Compare features and services to select the right courier partner for your shipping needs</p>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-gray-100">
+                                <th class="p-4 border-b font-semibold text-gray-700">Service Feature</th>
+                                <th class="p-4 border-b font-semibold text-yellow-700">Sundarban Courier</th>
+                                <th class="p-4 border-b font-semibold text-purple-700">FedEx</th>
+                                <th class="p-4 border-b font-semibold text-red-600">DHL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 border-b font-medium">Service Type</td>
+                                <td class="p-4 border-b">Domestic Only</td>
+                                <td class="p-4 border-b">International & Domestic</td>
+                                <td class="p-4 border-b">International & Domestic</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 border-b font-medium">Delivery Speed (International)</td>
+                                <td class="p-4 border-b">Not Available</td>
+                                <td class="p-4 border-b">1-5 business days</td>
+                                <td class="p-4 border-b">1-5 business days</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 border-b font-medium">Delivery Speed (Domestic)</td>
+                                <td class="p-4 border-b">1-3 business days</td>
+                                <td class="p-4 border-b">1-3 business days</td>
+                                <td class="p-4 border-b">1-3 business days</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 border-b font-medium">Tracking</td>
+                                <td class="p-4 border-b">Real-time</td>
+                                <td class="p-4 border-b">Advanced with predictive analytics</td>
+                                <td class="p-4 border-b">Advanced with predictive analytics</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 border-b font-medium">Insurance</td>
+                                <td class="p-4 border-b">Available</td>
+                                <td class="p-4 border-b">Comprehensive coverage</td>
+                                <td class="p-4 border-b">Comprehensive coverage</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 border-b font-medium">Customs Clearance</td>
+                                <td class="p-4 border-b">Not applicable</td>
+                                <td class="p-4 border-b">Expert brokerage services</td>
+                                <td class="p-4 border-b">Expert brokerage services</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 border-b font-medium">E-commerce Integration</td>
+                                <td class="p-4 border-b">Basic</td>
+                                <td class="p-4 border-b">Advanced API integration</td>
+                                <td class="p-4 border-b">Advanced API integration</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 border-b font-medium">Specialized Industry Solutions</td>
+                                <td class="p-4 border-b">Limited</td>
+                                <td class="p-4 border-b">Healthcare, retail, automotive, tech</td>
+                                <td class="p-4 border-b">Healthcare, tech, fashion, automotive</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-gradient-to-r from-blue-700 to-purple-800 text-white rounded-2xl shadow-lg p-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Connect With Our Shipping Partners</h2>
+            <p class="mb-6 max-w-2xl mx-auto text-lg">Whether you need domestic delivery or international shipping, our trusted courier partners are ready to handle your logistics needs efficiently and reliably.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <button class="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold py-3 px-8 rounded-full transition duration-300 flex items-center">
+                    <i class="fas fa-phone-alt mr-2"></i> Contact Sundarban
+                </button>
+                <button class="bg-white hover:bg-gray-200 text-purple-800 font-bold py-3 px-8 rounded-full transition duration-300 flex items-center">
+                    <i class="fas fa-headset mr-2"></i> FedEx Support
+                </button>
+                <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 flex items-center">
+                    <i class="fas fa-comments mr-2"></i> DHL Assistance
+                </button>
+            </div>
+        </section>
+    </main>
+
+        <!-- New Footer Section -->
+    <footer class="bg-gray-900 text-white animate__animated animate__fadeInUp">
+        <div class="container mx-auto px-4 py-12">
+            <!-- Main Footer Links -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <!-- Solutions Column -->
+                <div class="animate__animated animate__fadeInUp animate__delay-1s">
+                    <h3 class="text-xl font-bold mb-6 text-red-400 flex items-center">
+                        <i class="fas fa-cogs mr-3"></i>
+                        Solutions
+                    </h3>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white transition-all duration-300 flex items-center group">
+                                <i class="fas fa-chevron-right text-red-500 mr-2 text-xs group-hover:translate-x-1 transition-transform"></i>
+                                For Distributors
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white transition-all duration-300 flex items-center group">
+                                <i class="fas fa-chevron-right text-red-500 mr-2 text-xs group-hover:translate-x-1 transition-transform"></i>
+                                For Suppliers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white transition-all duration-300 flex items-center group">
+                                <i class="fas fa-chevron-right text-red-500 mr-2 text-xs group-hover:translate-x-1 transition-transform"></i>
+                                For Shippers
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Education Column -->
+                <div class="animate__animated animate__fadeInUp animate__delay-2s">
+                    <h3 class="text-xl font-bold mb-6 text-blue-400 flex items-center">
+                        <i class="fas fa-graduation-cap mr-3"></i>
+                        Education
+                    </h3>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white transition-all duration-300 flex items-center group">
+                                <i class="fas fa-chevron-right text-blue-500 mr-2 text-xs group-hover:translate-x-1 transition-transform"></i>
+                                United International University
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white transition-all duration-300 flex items-center group">
+                                <i class="fas fa-chevron-right text-blue-500 mr-2 text-xs group-hover:translate-x-1 transition-transform"></i>
+                                Market Research
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white transition-all duration-300 flex items-center group">
+                                <i class="fas fa-chevron-right text-blue-500 mr-2 text-xs group-hover:translate-x-1 transition-transform"></i>
+                                Industry News
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- About TriMart Column -->
+                <div class="animate__animated animate__fadeInUp animate__delay-3s">
+                    <h3 class="text-xl font-bold mb-6 text-purple-400 flex items-center">
+                        <i class="fas fa-info-circle mr-3"></i>
+                        About TriMart
+                    </h3>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white transition-all duration-300 flex items-center group">
+                                <i class="fas fa-chevron-right text-purple-500 mr-2 text-xs group-hover:translate-x-1 transition-transform"></i>
+                                Contact Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white transition-all duration-300 flex items-center group">
+                                <i class="fas fa-chevron-right text-purple-500 mr-2 text-xs group-hover:translate-x-1 transition-transform"></i>
+                                Our Story
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white transition-all duration-300 flex items-center group">
+                                <i class="fas fa-chevron-right text-purple-500 mr-2 text-xs group-hover:translate-x-1 transition-transform"></i>
+                                Meet Our Team
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-700 my-8"></div>
+
+            <!-- Bottom Footer -->
+            <div class="flex flex-col md:flex-row justify-between items-center animate__animated animate__fadeIn">
+                <!-- Copyright -->
+                <div class="mb-4 md:mb-0">
+                    <p class="text-gray-400 text-sm">
+                        ©2025, The TriMart Marketplace®. All Rights Reserved.
+                    </p>
+                </div>
+
+                <!-- Policy Links -->
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">
+                        Terms of Use
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">
+                        Privacy Policy
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300 text-sm">
+                        Cookie Policy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

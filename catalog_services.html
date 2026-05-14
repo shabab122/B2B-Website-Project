@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalog Services</title>
+  <!-- Include Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Optional: Customize Tailwind theme -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#d31b23', // Red accent from your original CSS
+            secondary: '#fafafa', // Light gray background
+          },
+          animation: {
+            fadeIn: 'fadeIn 1s ease-in-out',
+          },
+          keyframes: {
+            fadeIn: {
+              '0%': { opacity: '0' },
+              '100%': { opacity: '1' },
+            },
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-secondary text-gray-800 font-sans">
+
+  <header class="text-center p-6 md:p-10 animate-fadeIn">
+    <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Catalogs</h1>
+    <div class="tabs flex justify-center gap-4 mb-6">
+      <div class="tab px-6 py-2 border border-gray-300 rounded-lg cursor-pointer transition duration-300 font-medium hover:bg-primary hover:text-white active:bg-primary active:text-white active:border-primary">Spectrum</div>
+      <div class="tab px-6 py-2 border border-gray-300 rounded-lg cursor-pointer transition duration-300 font-medium hover:bg-primary hover:text-white">Idea Showcase</div>
+      <div class="tab px-6 py-2 border border-gray-300 rounded-lg cursor-pointer transition duration-300 font-medium hover:bg-primary hover:text-white">Gift Book</div>
+    </div>
+  </header>
+
+  <section class="catalog-section flex flex-col md:flex-row items-start justify-between p-6 md:p-12 gap-8 animate-fadeIn">
+    <div class="catalog-text flex-1">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4 text-gray-900">Spectrum</h2>
+      <p class="text-lg mb-4">
+        The #1 catalog in the industry. Spectrum is also available with The Gift Book supplement. This wide selection of products, organized by product category, makes it an immediate go-to for clients to reference year-round.
+      </p>
+      <p class="text-lg font-semibold mb-6"><strong>Published:</strong> November</p>
+      <div class="buttons flex flex-wrap gap-4">
+        <button class="btn red px-6 py-3 rounded-lg bg-primary text-white font-semibold transition duration-300 hover:bg-red-700">See Sample Pages</button>
+        <button class="btn gray px-6 py-3 rounded-lg bg-gray-200 text-gray-800 font-semibold transition duration-300 hover:bg-gray-300">View Alt Covers</button>
+      </div>
+    </div>
+    <div class="catalog-image">
+      <img src="https://picsum.photos/600/400?random=1" alt="Spectrum Catalog Cover" class="w-full max-w-xs md:max-w-md rounded-lg shadow-lg border-4 border-primary transition-transform duration-300 hover:scale-105 hover:brightness-110">
+    </div>
+  </section>
+
+  <table class="pricing-table w-full md:w-4/5 mx-auto my-12 bg-white border border-gray-200 rounded-lg overflow-hidden animate-fadeIn">
+    <tr class="bg-red-100">
+      <th class="p-4 font-semibold text-gray-900">Quantity</th>
+      <th class="p-4 font-semibold text-gray-900">50</th>
+      <th class="p-4 font-semibold text-gray-900">250</th>
+      <th class="p-4 font-semibold text-gray-900">500</th>
+      <th class="p-4 font-semibold text-gray-900">1,000</th>
+      <th class="p-4 font-semibold text-gray-900">2,500</th>
+    </tr>
+    <tr class="bg-gray-50">
+      <td class="p-4 font-medium"><strong>Standard Unit Price</strong></td>
+      <td class="p-4">2.54</td>
+      <td class="p-4">2.50</td>
+      <td class="p-4">2.44</td>
+      <td class="p-4">2.04</td>
+      <td class="p-4">1.84</td>
+    </tr>
+    <tr class="bg-white">
+      <td class="p-4 font-medium"><strong>Gift Book Supplement Unit Price</strong></td>
+      <td class="p-4">2.84</td>
+      <td class="p-4">2.80</td>
+      <td class="p-4">2.74</td>
+      <td class="p-4">2.34</td>
+      <td class="p-4">2.14</td>
+    </tr>
+  </table>
+
+  <section class="steps-section bg-white p-6 md:p-12 text-center animate-fadeIn">
+    <h2 class="text-2xl md:text-3xl font-bold mb-4 text-gray-900">Get Started With 4 Easy Steps</h2>
+    <p class="text-lg mb-8 max-w-4xl mx-auto">
+      Our catalog mailing program is designed to streamline your marketing efforts and maximize your outreach potential. With our comprehensive approach, we offer a tailored solution that caters to various industries and demographics.
+    </p>
+    <div class="steps-container flex flex-wrap justify-center gap-6">
+      <div class="step-card bg-white border border-gray-200 rounded-lg w-64 p-6 shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105">
+        <img src="https://picsum.photos/100/100?random=2" alt="Step 1 Icon" class="w-16 h-16 mx-auto mb-4 rounded-full object-cover border-2 border-primary">
+        <h4 class="text-primary text-xl font-semibold mb-2">Step 1</h4>
+        <h3 class="text-lg font-bold text-gray-800">Share Your Brand Identity</h3>
+      </div>
+      <div class="step-card bg-white border border-gray-200 rounded-lg w-64 p-6 shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105">
+        <img src="https://picsum.photos/100/100?random=3" alt="Step 2 Icon" class="w-16 h-16 mx-auto mb-4 rounded-full object-cover border-2 border-primary">
+        <h4 class="text-primary text-xl font-semibold mb-2">Step 2</h4>
+        <h3 class="text-lg font-bold text-gray-800">Woo Your Future Customers</h3>
+      </div>
+      <div class="step-card bg-white border border-gray-200 rounded-lg w-64 p-6 shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105">
+        <img src="https://picsum.photos/100/100?random=4" alt="Step 3 Icon" class="w-16 h-16 mx-auto mb-4 rounded-full object-cover border-2 border-primary">
+        <h4 class="text-primary text-xl font-semibold mb-2">Step 3</h4>
+        <h3 class="text-lg font-bold text-gray-800">Choose the Area You Want to Target</h3>
+      </div>
+      <div class="step-card bg-white border border-gray-200 rounded-lg w-64 p-6 shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105">
+        <img src="https://picsum.photos/100/100?random=5" alt="Step 4 Icon" class="w-16 h-16 mx-auto mb-4 rounded-full object-cover border-2 border-primary">
+        <h4 class="text-primary text-xl font-semibold mb-2">Step 4</h4>
+        <h3 class="text-lg font-bold text-gray-800">Leave the Mailing to Us</h3>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white text-center p-4 mt-12">
+    <p>&copy; 2025 TriMart Marketplace. All rights reserved.</p>
+  </footer>
+
+
+</body>
+</html>
